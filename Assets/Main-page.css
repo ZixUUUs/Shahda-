@@ -1,0 +1,27 @@
+/*--header--*/
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 80px;
+  gap: 40px;
+  background-color: #ffffff4d;
+  border-bottom: 1px solid #000;
+}
+.header--logo {
+  width: 200px;
+  height: 80px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+}
