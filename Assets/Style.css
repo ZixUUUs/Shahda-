@@ -26,6 +26,7 @@ a:active {
 }
 .header--logo img {
   object-fit: cover;
+  box-shadow: 0px 4px 4px 0px rgba(255, 192, 0, 0.161);
 }
 /*texte style :*/
 nav ul li a {
