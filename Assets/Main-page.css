@@ -28,7 +28,27 @@ nav ul {
   justify-content: space-between;
   gap: 24px;
 }
-
+/*--Main--Hero--*/
+.background-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.padding-warraper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 80px;
+}
+.sec-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 /*responsive*/
 @media screen and (max-width: 1400px) {
   header {
