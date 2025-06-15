@@ -49,19 +49,113 @@ nav ul li a {
   text-wrap: nowrap;
   color: #000;
 }
+.sec-one-text-content .title h1 {
+  font-family: Clash Display;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 85px;
+  letter-spacing: 0%;
+  text-wrap: nowrap;
+  color: #3f0600;
+}
+.text-wrapper-sec-one .text-content p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #ffffff;
+}
+.btn-content-sec-one span {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.btn-content-sec-one a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 85px;
+  letter-spacing: 0%;
+  color: #3f0600;
+  text-align: center;
+}
 /*responsive*/
 @media screen and (max-width: 1400px) {
   nav ul li a {
     font-size: 22px;
   }
+  .sec-one-text-content .title h1 {
+    font-size: 56px;
+  }
+  .text-wrapper-sec-one .text-content p {
+    font-size: 32px;
+  }
+  .btn-content-sec-one span {
+    font-size: 26px;
+  }
+  .btn-content-sec-one a {
+    font-size: 31px;
+    line-height: 75px;
+  }
 }
+
 @media screen and (max-width: 990px) {
   nav ul li a {
     font-size: 25px;
+  }
+  .sec-one-text-content .title h1 {
+    font-size: 42px;
+  }
+  .text-wrapper-sec-one .text-content p {
+    font-size: 28px;
+  }
+  .btn-content-sec-one span {
+    font-size: 24px;
+  }
+  .btn-content-sec-one a {
+    font-size: 26px;
+    line-height: 70px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .sec-one-text-content .title h1 {
+    font-size: 38px;
+  }
+  .text-wrapper-sec-one .text-content p {
+    font-size: 20px;
+  }
+  .btn-content-sec-one span {
+    font-size: 20px;
+  }
+  .btn-content-sec-one a {
+    font-size: 22px;
+    line-height: 50px;
   }
 }
 @media screen and (max-width: 450px) {
   nav ul li a {
     font-size: 16px;
+  }
+  .sec-one-text-content .title h1 {
+    font-size: 28px;
+    line-height: 0;
+  }
+  .text-wrapper-sec-one .text-content p {
+    font-size: 16px;
+    line-height: 36px;
+  }
+  .btn-content-sec-one span {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .btn-content-sec-one a {
+    font-size: 16px;
+    line-height: 36px;
   }
 }
