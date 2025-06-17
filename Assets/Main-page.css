@@ -1,6 +1,5 @@
 /*--header--*/
 header {
-  position: sticky;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -16,7 +15,15 @@ header {
   width: 200px;
   height: 80px;
 }
-
+.header--logo::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: #ffc0000f;
+}
 nav {
   display: flex;
   align-items: center;
@@ -265,6 +272,6 @@ nav ul {
     top: -8%;
     right: -20px;
     height: 114%;
-    width: 120%;
+    width: 430px;
   }
 }
