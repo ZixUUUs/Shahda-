@@ -37,108 +37,47 @@ nav ul {
   gap: 24px;
 }
 /*--Main--Hero--*/
-.main-hero {
+.shehda__main-hero {
+  display: flex;
   position: relative;
+}
+.shahda__main-hero-background-image {
+  position: relative;
+  width: 100%;
+  min-height: 90vh;
+  top: -15px;
+}
+.shahda__main-hero-background-image img {
+  width: 100%;
   height: 100%;
-  max-height: 100vh;
+  object-fit: cover;
 }
-.background-image {
+.shehda__main-hero-text-wrapper {
   position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 112vh;
-  z-index: 1;
-}
-
-.background-image img {
-  object-position: 44px 50%;
-}
-.padding-warraper {
-  position: relative;
-  width: 100%;
-  height: 62vh;
-  display: flex;
-  padding: 80px;
-  z-index: 1;
-}
-.sec-container {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100vh;
-  z-index: 2;
-}
-
-.sec-one-text-content {
-  position: absolute;
-  top: 16%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  width: 40vw;
-  max-height: 800px;
-  z-index: 66;
-}
-
-.text-wrapper-sec-one {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 70%;
-}
-.text-wrapper-sec-one .text-content {
+  top: 90px;
+  left: 0;
+  padding: 149px 34px;
   max-width: 841px;
-  max-height: 211px;
-}
-.text-wrapper-sec-one .btn-content-sec-one {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  max-width: 752px;
-  max-height: 220px;
-  height: 220px;
-  gap: 40px;
+  z-index: 1;
 }
-.btn-content-sec-one a {
-  max-width: 400px;
-  border-radius: 15px;
-  background-color: #ffffff;
-}
-.baghrir {
+.shahda__main-hero-text__bubbles {
   position: absolute;
-  top: -20%;
-  right: -80px;
-  z-index: 5;
+  top: 58%;
+  left: 0%;
 }
-.baghrir img {
-  object-position: 94px 50%;
+.shahda__main-hero-text__bubbles img {
+  object-position: -105px;
+  transform: scaleY(-1);
 }
-.pot {
-  position: absolute;
-  top: 23%;
-  right: -2%;
-  height: 53%;
-  z-index: 5;
-}
+
 /*responsive*/
 
-@media screen and (max-width: 1600px) {
-  .background-image img {
-    object-position: right;
-  }
-  .sec-one-text-content {
-    max-height: 871px;
-  }
-  .text-wrapper-sec-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 70%;
-  }
-}
 @media screen and (max-width: 1400px) {
+  .shehda__main-hero-text-wrapper {
+    top: 0;
+  }
   .sec-one-text-content {
     width: 90vw;
   }
@@ -146,20 +85,9 @@ nav ul {
     padding: 10px 60px;
     gap: 20px;
   }
-  .padding-warraper {
-    padding: 60px;
-  }
-  .baghrir {
-    position: absolute;
-    top: -17%;
-    right: -60px;
-    height: 125%;
-  }
-  .pot {
-    position: absolute;
-    top: 26%;
-    right: -2%;
-    height: 53%;
+  /*main-hero*/
+  .shehda__main-hero-text-wrapper {
+    padding: 90px 34px;
   }
 }
 
@@ -213,14 +141,27 @@ nav ul {
   header nav ul {
     flex-direction: column;
   }
-  .padding-warraper {
-    padding: 40px;
+  /*main-hero*/
+  .shehda__main-hero-text-wrapper span {
+    order: 3;
+    margin-top: 30px;
   }
-  .baghrir {
+
+  .shahda__main-hero-background-image img {
+    object-position: right;
+  }
+  .shehda__main-hero-text-wrapper {
+    padding: 30px 34px;
+  }
+  .shahda__main-hero-text__bubbles {
     position: absolute;
-    top: -15%;
-    right: -40px;
-    height: 125%;
+    top: 58%;
+    right: 0;
+    left: auto;
+  }
+  .shahda__main-hero-text__bubbles img {
+    object-position: -105px;
+    transform: scaleX(-1) scaleY(-1);
   }
 }
 @media screen and (max-width: 780px) {
@@ -237,29 +178,26 @@ nav ul {
     border-radius: 100px;
     background-color: #ffffff;
   }
-  .background-image {
-    height: 104vh;
-  }
-  .baghrir {
+  /*main-hero*/
+  .shahda__main-hero-background-image::after {
+    content: "";
     position: absolute;
-    top: -7%;
-    right: -20px;
-    height: 114%;
+    top: 0;
+    right: 0;
+    background-color: #3f06000f;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
   }
-  .pot {
-    position: absolute;
-    top: 34%;
-    right: -2%;
-    height: 43%;
+  .shehda__main-hero-text-wrapper {
+    padding: 50px 15px;
+  }
+  .shehda__main-hero-text-wrapper a {
+    padding: 8px 24px;
+    border-radius: 100px;
   }
 }
 @media screen and (max-width: 450px) {
-  .background-image {
-    height: 88vh;
-  }
-  .sec-container {
-    height: 88vh;
-  }
   .responsive-btn button {
     width: 30px;
     height: 30px;
@@ -267,11 +205,12 @@ nav ul {
   .header--logo {
     transform: translate(-77%);
   }
-  .baghrir {
-    position: absolute;
-    top: -8%;
-    right: -20px;
-    height: 114%;
-    width: 430px;
+  /*main-hero*/
+  .shehda__main-hero-text-wrapper {
+    padding: 35px 15px;
+  }
+  .shehda__main-hero-text-wrapper a {
+    padding: 0px 24px;
+    border-radius: 100px;
   }
 }
