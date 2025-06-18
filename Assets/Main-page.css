@@ -55,19 +55,83 @@ nav ul {
   flex-direction: column;
   z-index: 1;
 }
+.shehda__main-hero-text-wrapper a {
+  transition: all 0.3s ease-in-out;
+}
+.shehda__main-hero-text-wrapper a:hover {
+  background-color: #571600;
+  border: 1px solid #571600;
+  color: #ffffff;
+}
 .shahda__main-hero-text__bubbles {
   position: absolute;
   top: 58%;
-  left: 0%;
+  left: 2%;
 }
-.shahda__main-hero-text__bubbles img {
+.shahda__main-hero-text__bubbles .bubbles2 {
   object-fit: cover;
-  object-position: -105px;
-  transform: scaleY(-1);
+  object-position: 0;
+  transform: scaleY(-1) scaleX(-1);
 }
-
+/*Slider--sec*/
+.shehda__slider-product {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shehda__slider-product-bubbles img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.shehda__slider-product-bubbles {
+  position: absolute;
+  top: -42%;
+  left: 0vw;
+  width: 180px;
+}
+.shehda__slider-product-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.shehda__slider-product-wrapper-glide-container {
+  width: 100%;
+  height: 500px;
+}
+.shehda__slider-product-wrapper-btn a {
+  background-color: #571600;
+  padding: 16px 32px;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.shehda__slider-product-wrapper-btn a:hover {
+  background-color: #ffffff;
+  border: 1px solid #571600;
+  color: #571600;
+}
+.shehda__slider-product-background {
+  position: relative;
+}
+.shehda__slider-product-background-miel {
+  position: absolute;
+  top: 60px;
+  right: -32vw;
+  height: 56vh;
+  width: 29vw;
+}
+.shehda__slider-product-background-bulle {
+  position: absolute;
+  top: 134px;
+  right: 682px;
+}
 /*responsive*/
 
+@media screen and (max-width: 1600px) {
+}
 @media screen and (max-width: 1400px) {
   .shahda__main-hero-background-image {
     top: -14px;
@@ -85,6 +149,15 @@ nav ul {
   /*main-hero*/
   .shehda__main-hero-text-wrapper {
     padding: 90px 34px;
+  }
+  /*sec-2-*/
+  .shehda__slider-product-bubbles {
+    display: none;
+  }
+  .shehda__slider-product-background-bulle {
+    position: absolute;
+    top: 134px;
+    right: 41vw;
   }
 }
 
@@ -159,6 +232,16 @@ nav ul {
   .shahda__main-hero-text__bubbles img {
     object-position: -105px;
     transform: scaleX(-1) scaleY(-1);
+  }
+  /*sec-2-*/
+  .shehda__slider-product-background-miel {
+    display: none;
+  }
+  .shehda__slider-product-background-bulle {
+    display: none;
+  }
+  .shehda__slider-product-wrapper-title {
+    width: 100%;
   }
 }
 @media screen and (max-width: 780px) {
