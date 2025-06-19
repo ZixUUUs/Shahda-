@@ -305,15 +305,9 @@ nav ul {
     padding: 30px 34px;
   }
   .shahda__main-hero-text__bubbles {
-    position: absolute;
-    top: 58%;
-    right: 0;
-    left: auto;
+    display: none;
   }
-  .shahda__main-hero-text__bubbles img {
-    object-position: -105px;
-    transform: scaleX(-1) scaleY(-1);
-  }
+
   /*sec-2-*/
   .shehda__slider-product-background-miel {
     display: none;
