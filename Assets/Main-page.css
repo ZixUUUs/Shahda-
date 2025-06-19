@@ -289,6 +289,9 @@ nav ul {
   header nav ul {
     flex-direction: column;
   }
+  header nav {
+    top: 15%;
+  }
   /*main-hero*/
   .shehda__main-hero-text-wrapper span {
     order: 3;
@@ -342,6 +345,9 @@ nav ul {
     max-width: 280px;
     border-radius: 100px;
     background-color: #ffffff;
+  }
+  header nav {
+    top: 15%;
   }
   /*main-hero*/
 
