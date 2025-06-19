@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="./Assets/Style.css" />
     <link rel="stylesheet" href="./Assets/Main-page.css" />
     <link rel="stylesheet" href="./Assets/fONT/css/clash-display.css" />
+
+    <!-- CSS de Glide -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+
+    <!-- JS de Glide -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"
+      defer
+    ></script>
+
     <script src="./Assets/Main.js" defer></script>
   </head>
   <body>
@@ -107,7 +120,58 @@
         <div class="shehda__slider-product-wrapper-title">
           <h2>Nos variétés</h2>
         </div>
-        <div class="shehda__slider-product-wrapper-glide-container"></div>
+        <div class="shehda__slider-product-wrapper-glide-container">
+          <div class="glide p-container">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <a href="#" class="product-card">
+                    <div class="product-card-image">
+                      <img src="./Images/p2.png" alt="product" />
+                    </div>
+                    <div class="product-title">
+                      <h3>Miel cresson</h3>
+                    </div>
+                  </a>
+                </li>
+                <li class="glide__slide">
+                  <a href="#" class="product-card">
+                    <div class="product-card-image">
+                      <img src="./Images/p1.png" alt="product" />
+                    </div>
+                    <div class="product-title">
+                      <h3>Miel montagne</h3>
+                    </div>
+                  </a>
+                </li>
+                <li class="glide__slide">
+                  <a href="#" class="product-card">
+                    <div class="product-card-image">
+                      <img src="./Images/p3.png" alt="product" />
+                    </div>
+                    <div class="product-title">
+                      <h3>Miel Oranger</h3>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <div class="glide__arrows" data-glide-el="controls">
+                <button
+                  class="glide__arrow glide__arrow--left"
+                  data-glide-dir="<"
+                >
+                  <img src="./Images/swipe 1.png" alt="left" />
+                </button>
+                <button
+                  class="glide__arrow glide__arrow--right"
+                  data-glide-dir=">"
+                >
+                  <img src="./Images/swipe 2.png" alt="right" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="shehda__slider-product-wrapper-btn">
           <a href="#">Voir tout nos produits</a>
         </div>

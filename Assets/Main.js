@@ -80,3 +80,20 @@ function switchSvg() {
 menuBtn.addEventListener("click", () => {
   switchSvg();
 });
+/*GLIDEJS*/
+new Glide(".glide", {
+  type: "carousel",
+  startAt: 0,
+  perView: 3,
+  gap: 0,
+  animationDuration: 1500,
+  focusAt: "center",
+  keyboard: true,
+  peek: { before: 100, after: 100 },
+  breakpoints: {
+    990: {
+      perView: 1,
+      peek: { before: 0, after: 0 },
+    },
+  },
+}).mount();
