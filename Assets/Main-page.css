@@ -102,6 +102,9 @@ nav ul {
   width: 100%;
   height: 500px;
 }
+.shehda__slider-product-wrapper-btn {
+  align-self: center;
+}
 .shehda__slider-product-wrapper-btn a {
   background-color: #571600;
   padding: 16px 32px;
@@ -119,14 +122,16 @@ nav ul {
 .shehda__slider-product-background-miel {
   position: absolute;
   top: 60px;
-  right: -32vw;
+  right: 0;
   height: 56vh;
   width: 29vw;
 }
 .shehda__slider-product-background-bulle {
   position: absolute;
   top: 134px;
-  right: 682px;
+  left: 0;
+  width: auto;
+  height: auto;
 }
 /*responsive*/
 
