@@ -83,10 +83,10 @@ menuBtn.addEventListener("click", () => {
 /*GLIDEJS*/
 new Glide(".glide", {
   type: "carousel",
-  startAt: 0,
+  startAt: 1,
   perView: 3,
   gap: 0,
-  animationDuration: 1500,
+  animationDuration: 500,
   focusAt: "center",
   keyboard: true,
   peek: { before: 100, after: 100 },

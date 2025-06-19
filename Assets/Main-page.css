@@ -109,10 +109,12 @@ nav ul {
   align-self: center;
 }
 .shehda__slider-product-wrapper-btn a {
+  position: relative;
   background-color: #571600;
   padding: 16px 32px;
   border-radius: 15px;
   transition: all 0.3s ease-in-out;
+  z-index: 10;
 }
 .shehda__slider-product-wrapper-btn a:hover {
   background-color: #ffffff;
@@ -159,6 +161,11 @@ nav ul {
   border: none;
   background-color: none;
   pointer-events: all;
+}
+.glide__arrows button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .glide__slide {
   transform: scale(0.85);
@@ -314,6 +321,13 @@ nav ul {
   .shehda__slider-product-wrapper-title {
     width: 100%;
   }
+  /*sec-2*/
+  .glide__arrows {
+    top: -350px;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 40px;
+  }
 }
 @media screen and (max-width: 780px) {
   .responsive-btn button {
@@ -348,6 +362,20 @@ nav ul {
     align-items: center;
     justify-content: center;
   }
+  /*sec-2*/
+  .glide__arrows {
+    top: -300px;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 40px;
+  }
+  .glide__arrow {
+    width: 90px;
+    height: 90px;
+  }
+  .glide__slide a {
+    margin-left: 0;
+  }
 }
 @media screen and (max-width: 450px) {
   .responsive-btn button {
@@ -364,5 +392,19 @@ nav ul {
   .shehda__main-hero-text-wrapper a {
     padding: 0px 24px;
     border-radius: 100px;
+  }
+  /*sec-2*/
+  .glide__arrows {
+    top: -300px;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 20px;
+  }
+  .glide__arrow {
+    width: 60px;
+    height: 60px;
+  }
+  .glide__slide a {
+    margin-left: 0;
   }
 }
