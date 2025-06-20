@@ -112,6 +112,59 @@ nav ul li a {
   letter-spacing: 0%;
   color: #ffffff;
 }
+/*sec-3*/
+.heading-absolute h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 48px;
+  letter-spacing: 0%;
+  color: #3f0600;
+}
+.text-about h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #3f0600;
+  margin-bottom: 20px;
+}
+.text-about p {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #3f0600;
+}
+.grid-card-text p span {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.grid-card-text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.side-circle h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #3f0600;
+}
 /*responsive*/
 @media screen and (max-width: 1400px) {
   nav ul li a {
@@ -122,6 +175,12 @@ nav ul li a {
 @media screen and (max-width: 990px) {
   nav ul li a {
     font-size: 25px;
+  }
+  .side-circle br {
+    display: none;
+  }
+  c {
+    text-align: center;
   }
 }
 @media screen and (max-width: 780px) {
@@ -137,6 +196,17 @@ nav ul li a {
   .shehda__slider-product-wrapper-title h2 {
     font-size: 38px;
     line-height: 50px;
+  }
+  /*sec-3*/
+  .heading-absolute h2 {
+    font-size: 32px;
+  }
+  .text-about h2 {
+    font-size: 32px;
+  }
+  .side-circle h3 {
+    font-size: 32px;
+    text-align: center;
   }
 }
 @media screen and (max-width: 450px) {
@@ -166,5 +236,23 @@ nav ul li a {
   .shehda__slider-product-wrapper-btn a {
     font-size: 16px;
     line-height: 48px;
+  }
+  /*sec-3*/
+  .heading-absolute h2 {
+    font-size: 28px;
+  }
+  .text-about h2 {
+    font-size: 28px;
+  }
+  .side-circle h3 {
+    font-size: 28px;
+  }
+  .side-circle p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .grid-card-text p {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
