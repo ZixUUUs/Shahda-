@@ -628,6 +628,11 @@ nav ul {
     transform: translate(-77%);
   }
   /*main-hero*/
+  .shahda__main-hero-background-image {
+    position: relative;
+    width: 100%;
+    min-height: 62vh;
+  }
   .shahda__main-hero-background-image img {
     object-position: 83% 50%;
   }
