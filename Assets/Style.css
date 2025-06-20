@@ -8,7 +8,7 @@
   padding: 0;
   margin: 0;
 }
-
+/*-------------------global-------------------*/
 section {
   display: flex;
   max-width: 1600px;
@@ -41,7 +41,7 @@ a:active {
   position: absolute;
   top: -18px;
 }
-/*texte style :*/
+/*-------------------sec-1-------------------*/
 nav ul li a {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -94,7 +94,7 @@ nav ul li a {
   border-radius: 15px;
   width: max-content;
 }
-/*sec-2-text-style*/
+/*-------------------sec-2-------------------*/
 .shehda__slider-product-wrapper-title h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -112,7 +112,7 @@ nav ul li a {
   letter-spacing: 0%;
   color: #ffffff;
 }
-/*sec-3*/
+/*-------------------sec-3-------------------*/
 .heading-absolute h2 {
   font-family: "Poppins";
   font-weight: 700;
@@ -165,7 +165,39 @@ nav ul li a {
   text-align: right;
   color: #3f0600;
 }
-/*responsive*/
+/*-------------------sec-4-------------------*/
+
+.review-text-title h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #3f0600;
+}
+.review-box p {
+  font-family: "Inter";
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #3f0600;
+}
+#arabic-review {
+  direction: rtl;
+  font-family: Amiri;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  color: #3f0600;
+}
+/*-------------------------------responsive-------------------------------*/
 @media screen and (max-width: 1400px) {
   nav ul li a {
     font-size: 22px;
@@ -207,6 +239,21 @@ nav ul li a {
   .side-circle h3 {
     font-size: 32px;
     text-align: center;
+  }
+
+  /*-------------------sec-4-------------------*/
+
+  .review-text-title h2 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+  .review-box p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  #arabic-review {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -254,5 +301,19 @@ nav ul li a {
   .grid-card-text p {
     font-size: 14px;
     line-height: 20px;
+  }
+  /*-------------------sec-4-------------------*/
+
+  .review-text-title h2 {
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .review-box p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  #arabic-review {
+    font-size: 16px;
+    line-height: 30px;
   }
 }
