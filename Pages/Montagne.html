@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shahda Montagne</title>
+    <link rel="stylesheet" href="../Assets/product-page.css" />
+    <link rel="stylesheet" href="../Assets/Style.css" />
+    <link rel="stylesheet" href="../Assets/Main-page.css" />
+    <script src="../Assets/Main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="responsive-btn" id="res-btn">
+        <button>
+          <svg
+            width="40px"
+            height="40px"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient
+                id="honey"
+                x1="0"
+                y1="0"
+                x2="64"
+                y2="64"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0%" stop-color="#fbd14b" />
+                <stop offset="100%" stop-color="#e89c1c" />
+              </linearGradient>
+              <linearGradient
+                id="lid"
+                x1="0"
+                y1="0"
+                x2="64"
+                y2="0"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0%" stop-color="#b1782c" />
+                <stop offset="100%" stop-color="#d89e39" />
+              </linearGradient>
+            </defs>
+
+            <!-- Pot shape -->
+            <path
+              d="M20 18 Q16 28 20 44 Q22 52 32 52 Q42 52 44 44 Q48 28 44 18 Z"
+              fill="url(#honey)"
+              stroke="#e89c1c"
+              stroke-width="2"
+            />
+
+            <!-- Lid -->
+            <ellipse cx="32" cy="16" rx="16" ry="4" fill="url(#lid)" />
+            <rect x="16" y="12" width="32" height="6" rx="3" fill="url(#lid)" />
+
+            <!-- Menu bars (miel à l'intérieur) -->
+            <rect x="22" y="28" width="20" height="3" rx="1.5" fill="#fff5cc" />
+            <rect x="22" y="34" width="20" height="3" rx="1.5" fill="#fff5cc" />
+            <rect x="22" y="40" width="20" height="3" rx="1.5" fill="#fff5cc" />
+          </svg>
+        </button>
+      </div>
+      <div class="logo--icon--container header--logo">
+        <img src="../Images/Shahda-LOGO.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Acceuil</a></li>
+          <li><a href="./Product.html">Nos Produits</a></li>
+          <li><a href="#"> Nos Coffres </a></li>
+          <li><a href="#"> A propos de Nous </a></li>
+          <li><a href="#"> Nous Contacter </a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="shehda__first-half-product">
+      <div class="wrapper">
+        <div class="description-metafield-product">
+          <div class="title-Product">
+            <h1>Miel Montagne</h1>
+            <h2 style="direction: rtl">عسل جبلي</h2>
+          </div>
+          <div class="price">
+            <h3>5000DA/kg</h3>
+          </div>
+          <div class="quick-description">
+            <p>
+              Riche et authentique, ce miel de montagne reflète la puissance des
+              fleurs sauvages des hauts reliefs algériens. Sa texture épaisse et
+              son goût boisé en font un allié idéal contre la fatigue.
+              Naturellement tonifiant, il renforce les défenses, soutient
+              l’endurance et aide à la récupération. Parfait pour les saisons
+              froides ou les périodes de baisse d’énergie.
+            </p>
+          </div>
+          <div class="metafield-quantity">
+            <div class="btn-container">
+              <button>250g</button>
+              <button>500g</button>
+              <button>1kg</button>
+            </div>
+            <div class="quantity">
+              <input
+                type="number"
+                id="quantite"
+                name="quantite"
+                min="1"
+                max="10"
+                step="1"
+                value="1"
+              />
+            </div>
+          </div>
+          <div class="commande-button">
+            <button id="ADD-CHART">Ajouter à mon panier</button>
+            <button id="COMMANDE">Commander</button>
+          </div>
+        </div>
+        <div class="border"></div>
+        <div class="Product-image">
+          <img src="../Images/p1.png" alt="Cresson" />
+        </div>
+      </div>
+    </section>
+    <section class="shehda__second-half-product">
+      <div class="description product-info">
+        <h2>Description</h2>
+        <p>
+          Récolté en altitude, au cœur des montagnes algériennes, ce miel se
+          distingue par sa richesse aromatique et sa texture généreuse. Son goût
+          intense reflète la diversité florale des hauts reliefs. Idéal pour
+          renforcer le corps et l’esprit au naturel.
+        </p>
+      </div>
+      <div class="bienfait product-info">
+        <h2>Bienfaits</h2>
+        <ul>
+          <li>
+            <p>Renforce la vitalité et la résistance naturelle</p>
+          </li>
+          <li>
+            <p>Aide à lutter contre la fatigue physique et mentale</p>
+          </li>
+          <li>
+            <p>Stimule le système immunitaire</p>
+          </li>
+          <li>
+            <p>Accompagne l’effort et favorise la récupération</p>
+          </li>
+          <li>
+            <p>Riche en minéraux et antioxydants essentiels</p>
+          </li>
+        </ul>
+      </div>
+      <div class="degustation product-info">
+        <h2>Comment le déguster ?</h2>
+        <p>
+          Pur à la cuillère, dans une tisane chaude, ou avant l’effort pour un
+          regain naturel d’énergie. Il s’intègre facilement aux recettes
+          équilibrées et aux routines vitalité.
+        </p>
+      </div>
+      <div class="conservation product-info">
+        <h2>Conservation</h2>
+        <p>À conserver à l’abri de la chaleur et de la lumière directe.</p>
+      </div>
+    </section>
+  </body>
+</html>
