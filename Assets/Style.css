@@ -41,6 +41,45 @@ a:active {
   position: absolute;
   top: -18px;
 }
+/*---------------------------Landing----------------------------*/
+/*---------------------------Product----------------------------*/
+.shehda__Product-grid h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #3f0600;
+}
+.p-title h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #571600;
+}
+.p-price h3 {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffca65;
+}
+.p-get a {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+/*---------------------------Product----------------------------*/
 /*-------------------sec-1-------------------*/
 nav ul li a {
   font-family: "Inter", sans-serif;
@@ -200,14 +239,18 @@ nav ul li a {
   vertical-align: bottom;
   color: #3f0600;
 }
+/*---------------------------Landing----------------------------*/
 /*-------------------------------responsive-------------------------------*/
 @media screen and (max-width: 1400px) {
+  /*---------------------------Landing----------------------------*/
   nav ul li a {
     font-size: 22px;
   }
+  /*---------------------------Landing----------------------------*/
 }
 
 @media screen and (max-width: 990px) {
+  /*---------------------------Landing----------------------------*/
   nav ul li a {
     font-size: 25px;
   }
@@ -217,8 +260,10 @@ nav ul li a {
   c {
     text-align: center;
   }
+  /*---------------------------Landing----------------------------*/
 }
 @media screen and (max-width: 780px) {
+  /*---------------------------Landing----------------------------*/
   .shehda__main-hero-text-wrapper h1 {
     font-size: 38px;
     line-height: 50px;
@@ -258,8 +303,10 @@ nav ul li a {
     font-size: 20px;
     line-height: 30px;
   }
+  /*---------------------------Landing----------------------------*/
 }
 @media screen and (max-width: 450px) {
+  /*---------------------------Landing----------------------------*/
   nav ul li a {
     font-size: 16px;
   }
@@ -328,4 +375,5 @@ nav ul li a {
     font-size: 16px;
     line-height: 26px;
   }
+  /*---------------------------Landing----------------------------*/
 }
