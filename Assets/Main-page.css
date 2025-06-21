@@ -82,6 +82,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 .shehda__slider-product-bubbles img {
   width: 100%;
@@ -418,6 +419,9 @@ nav ul {
     top: 17%;
     left: -4%;
   }
+  .shehda__descript-sec {
+    padding-top: 40px;
+  }
 }
 @media screen and (max-width: 990px) {
   header {
@@ -473,10 +477,6 @@ nav ul {
     top: 15%;
   }
   /*main-hero*/
-  .shehda__main-hero-text-wrapper span {
-    order: 3;
-    margin-top: 30px;
-  }
 
   .shehda__main-hero-text-wrapper {
     padding: 70px 34px 0 20px;
@@ -516,6 +516,11 @@ nav ul {
   .right-honey {
     display: none;
   }
+  .honey-img-absolute {
+    position: absolute;
+    top: 0;
+    left: 90%;
+  }
   .heading-absolute {
     position: relative;
     top: -198px;
@@ -538,6 +543,7 @@ nav ul {
     gap: 16px;
   }
   .side-circle {
+    display: none;
     position: relative;
     top: -100px;
     left: 0;
@@ -615,6 +621,11 @@ nav ul {
     top: -20px;
   }
   /*sec-3*/
+  .honey-img-absolute {
+    position: absolute;
+    top: 0;
+    left: 84%;
+  }
   .bule-sec-3 {
     position: absolute;
     top: 69%;
@@ -622,6 +633,20 @@ nav ul {
     width: 35%;
     height: 30%;
     z-index: 1;
+  }
+  .card-grid {
+    max-width: 160px;
+  }
+  .grid-choose ul {
+    padding-top: 20px;
+    gap: 10px;
+  }
+  .review-box {
+    width: 80%;
+  }
+  #arabic-review {
+    width: 80%;
+    margin: 0;
   }
 }
 @media screen and (max-width: 450px) {
@@ -632,7 +657,7 @@ nav ul {
   .shahda__main-hero-background-image {
     position: relative;
     width: 100%;
-    min-height: 70vh;
+    min-height: 75vh;
   }
   .shahda__main-hero-background-image img {
     object-position: 83% 50%;
@@ -646,11 +671,15 @@ nav ul {
     border-radius: 100px;
   }
   /*sec-2*/
+  .shehda__slider-product-wrapper-glide-container {
+    height: 420px;
+  }
   .glide__arrows {
-    top: -300px;
+    top: -250px;
     justify-content: space-between;
-    width: 90%;
-    margin-left: 20px;
+
+    width: 95%;
+    margin-left: 10px;
   }
   .glide__arrow {
     width: 60px;
@@ -659,19 +688,36 @@ nav ul {
   .glide__slide a {
     margin-left: 0;
   }
-
+  .product-card-image {
+    max-width: 250px;
+  }
   /*sec-3--*/
+  .honey-img-absolute {
+    position: absolute;
+    top: 0;
+    left: 75%;
+  }
   .grid-choose ul {
+    padding-top: 30px;
     gap: 10px;
   }
-
+  .card-ticket {
+    height: 40px;
+  }
   .bule-sec-3 {
     position: absolute;
-    top: 69%;
+    top: 77%;
     left: 63%;
     width: 35%;
     height: 30%;
     z-index: 1;
+  }
+  /*sec-4*/
+  .shehda__review {
+    padding-top: 20px;
+  }
+  .shehda__descript-sec {
+    padding-top: 0;
   }
   .heart-review {
     width: 63px;

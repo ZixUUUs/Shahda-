@@ -167,6 +167,9 @@ nav ul li a {
 }
 /*-------------------sec-4-------------------*/
 
+.review-text-title h2 span {
+  margin-left: 50px;
+}
 .review-text-title h2 {
   font-family: "Poppins";
   font-weight: 700;
@@ -286,34 +289,43 @@ nav ul li a {
   }
   /*sec-3*/
   .heading-absolute h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .text-about h2 {
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .text-about p {
+    font-size: 14px;
+    line-height: 26px;
   }
   .side-circle h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .side-circle p {
     font-size: 16px;
-    line-height: 27px;
+    line-height: 20px;
   }
   .grid-card-text p {
     font-size: 14px;
     line-height: 20px;
   }
+  .grid-card-text p span {
+    font-size: 16px;
+    line-height: 24px;
+  }
   /*-------------------sec-4-------------------*/
 
   .review-text-title h2 {
-    font-size: 28px;
-    line-height: 50px;
+    font-size: 24px;
+    line-height: 26px;
   }
   .review-box p {
     font-size: 14px;
-    line-height: 30px;
+    line-height: 26px;
   }
   #arabic-review {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 26px;
   }
 }

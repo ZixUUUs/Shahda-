@@ -1,6 +1,5 @@
 const headerList = document.querySelector("nav");
-const menuBtn = document.querySelector(".responsive-btn button");
-
+const menuBtn = document.getElementById("res-btn");
 const quitIcon = `<svg
 id="quitIcon"
   xmlns="http://www.w3.org/2000/svg"
