@@ -288,7 +288,26 @@ h2 {
   color: #ffffff;
 }
 /*---------------------------Product-page----------------------------*/
+.product-info h2 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  color: #3f0600;
+  text-align: left;
+}
 
+.product-info p,
+ul li p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #3f0600;
+  text-align: left;
+}
 /*-------------------------------responsive-------------------------------*/
 @media screen and (max-width: 1400px) {
   /*---------------------------Landing----------------------------*/
@@ -356,6 +375,18 @@ h2 {
     line-height: 30px;
   }
   /*---------------------------Product-page----------------------------*/
+  .product-info h2 {
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .product-info p,
+  ul li p {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 780px) {
   /*---------------------------Landing----------------------------*/
@@ -437,6 +468,16 @@ h2 {
   #ADD-CHART,
   #COMMANDE {
     font-size: 16px;
+    line-height: 30px;
+  }
+  .product-info h2 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .product-info p,
+  ul li p {
+    font-size: 18px;
     line-height: 30px;
   }
   /*---------------------------Product-page----------------------------*/
@@ -548,6 +589,16 @@ h2 {
   }
   #ADD-CHART,
   #COMMANDE {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .product-info h2 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .product-info p,
+  ul li p {
     font-size: 14px;
     line-height: 26px;
   }
