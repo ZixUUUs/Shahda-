@@ -334,6 +334,7 @@ nav ul {
 }
 /*-------------------sec-4-------------------*/
 .shehda__review {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -355,6 +356,7 @@ nav ul {
   align-items: center;
 }
 .review-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -362,6 +364,7 @@ nav ul {
   width: 100%;
   height: 100%;
   gap: 20px;
+  z-index: 2;
 }
 .review-box {
   width: 60%;
@@ -374,6 +377,18 @@ nav ul {
 #arabic-review {
   width: 50%;
   margin-left: 100px;
+}
+.background-women {
+  position: absolute;
+  top: 29%;
+  right: 0%;
+  width: 48%;
+  height: 70%;
+}
+.background-women img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 /*-------------------------------responsive-------------------------------*/
 
@@ -421,6 +436,13 @@ nav ul {
   }
   .shehda__descript-sec {
     padding-top: 40px;
+  }
+  .background-women {
+    position: absolute;
+    top: 29%;
+    right: 0%;
+    width: 52%;
+    height: 70%;
   }
 }
 @media screen and (max-width: 990px) {
@@ -565,6 +587,9 @@ nav ul {
   }
   .bule-sec-3 img {
     object-position: 0;
+  }
+  .background-women {
+    display: none;
   }
 }
 @media screen and (max-width: 780px) {
