@@ -308,6 +308,15 @@ ul li p {
   color: #3f0600;
   text-align: left;
 }
+.quantity input[value] {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #3f0600;
+}
+
 /*-------------------------------responsive-------------------------------*/
 @media screen and (max-width: 1400px) {
   /*---------------------------Landing----------------------------*/
@@ -461,7 +470,8 @@ ul li p {
     line-height: 40px;
   }
 
-  .metafield-quantity button {
+  .metafield-quantity button,
+  .quantity input[value] {
     font-size: 16px;
     line-height: 30px;
   }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cresson</title>
+    <title>Shahda Cresson</title>
     <link rel="stylesheet" href="../Assets/product-page.css" />
     <link rel="stylesheet" href="../Assets/Style.css" />
     <link rel="stylesheet" href="../Assets/Main-page.css" />
@@ -98,9 +98,22 @@
             </p>
           </div>
           <div class="metafield-quantity">
-            <button>250g</button>
-            <button>500g</button>
-            <button>1kg</button>
+            <div class="btn-container">
+              <button>250g</button>
+              <button>500g</button>
+              <button>1kg</button>
+            </div>
+            <div class="quantity">
+              <input
+                type="number"
+                id="quantite"
+                name="quantite"
+                min="1"
+                max="10"
+                step="1"
+                value="1"
+              />
+            </div>
           </div>
           <div class="commande-button">
             <button id="ADD-CHART">Ajouter à mon panier</button>
