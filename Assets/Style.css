@@ -241,6 +241,54 @@ nav ul li a {
 }
 
 /*---------------------------Product----------------------------*/
+/*---------------------------Product-page----------------------------*/
+.title-Product h1,
+h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  color: #3f0600;
+}
+.price h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  color: #ffca65;
+}
+.quick-description p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #3f0600;
+  text-align: left;
+}
+.metafield-quantity button {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #3f0600;
+}
+#ADD-CHART,
+#COMMANDE {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+/*---------------------------Product-page----------------------------*/
+
 /*-------------------------------responsive-------------------------------*/
 @media screen and (max-width: 1400px) {
   /*---------------------------Landing----------------------------*/
@@ -248,6 +296,30 @@ nav ul li a {
     font-size: 22px;
   }
   /*---------------------------Landing----------------------------*/
+  /*---------------------------Product-page----------------------------*/
+  .title-Product h1,
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .price h3 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .quick-description p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .metafield-quantity button {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  #ADD-CHART,
+  #COMMANDE {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /*---------------------------Product-page----------------------------*/
 }
 
 @media screen and (max-width: 990px) {
@@ -262,6 +334,28 @@ nav ul li a {
     text-align: center;
   }
   /*---------------------------Landing----------------------------*/
+  /*---------------------------Product-page----------------------------*/
+  .title-Product h1,
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .price h3 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .metafield-quantity button {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  #ADD-CHART,
+  #COMMANDE {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /*---------------------------Product-page----------------------------*/
 }
 @media screen and (max-width: 780px) {
   /*---------------------------Landing----------------------------*/
@@ -324,6 +418,28 @@ nav ul li a {
   }
 
   /*---------------------------Product----------------------------*/
+  /*---------------------------Product-page----------------------------*/
+  .title-Product h1,
+  h2 {
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .price h3 {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  .metafield-quantity button {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  #ADD-CHART,
+  #COMMANDE {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  /*---------------------------Product-page----------------------------*/
 }
 @media screen and (max-width: 450px) {
   /*---------------------------Landing----------------------------*/
@@ -415,4 +531,25 @@ nav ul li a {
   }
 
   /*---------------------------Product----------------------------*/
+  /*---------------------------Product-page----------------------------*/
+  .title-Product h1,
+  h2 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .price h3 {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .metafield-quantity button {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  #ADD-CHART,
+  #COMMANDE {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  /*---------------------------Product-page----------------------------*/
 }
