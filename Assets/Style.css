@@ -328,6 +328,36 @@ ul li p {
   color: #3f0600;
 }
 
+/*---------------------------FORM----------------------------*/
+.shehda__formulaire h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-align: left;
+  color: #3f0600;
+}
+.input-container label {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #3f0600;
+}
+.input-container input,
+select {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #3b2926;
+}
+/*---------------------------FORM----------------------------*/
+
 /*-------------------------------responsive-------------------------------*/
 @media screen and (max-width: 1400px) {
   /*---------------------------Landing----------------------------*/

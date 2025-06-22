@@ -15,7 +15,7 @@ const observer = new IntersectionObserver(
 const hiddenElem = document.querySelectorAll(".hidden");
 hiddenElem.forEach((el) => observer.observe(el));
 
-//animation--behaivour//
+//----------------animation--behaivour--------------------//
 
 const headerList = document.querySelector("nav");
 const menuBtn = document.getElementById("res-btn");
@@ -98,7 +98,8 @@ function switchSvg() {
 menuBtn.addEventListener("click", () => {
   switchSvg();
 });
-/*GLIDEJS*/
+//----------------animation--behaivour--------------------//
+//----------------GLide-JS--------------------//
 new Glide(".glide", {
   type: "carousel",
   startAt: 1,
@@ -115,3 +116,4 @@ new Glide(".glide", {
     },
   },
 }).mount();
+//----------------GLide-JS--------------------//
