@@ -101,8 +101,8 @@ menuBtn.addEventListener("click", () => {
 //----------------animation--behaivour--------------------//
 //----------------GLide-JS--------------------//
 new Glide(".glide", {
-  type: "carousel",
-  startAt: 1,
+  type: "slider",
+  startAt: 0,
   perView: 3,
   gap: 0,
   animationDuration: 500,
