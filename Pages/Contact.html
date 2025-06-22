@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactez-Shahda</title>
+    <link rel="stylesheet" href="../Assets/Style.css" />
+    <link rel="stylesheet" href="../Assets/Main-page.css" />
+    <link rel="stylesheet" href="../Assets/Contact.css" />
+    <script src="../Assets/Main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="responsive-btn" id="res-btn">
+        <button>
+          <svg
+            width="40px"
+            height="40px"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient
+                id="honey"
+                x1="0"
+                y1="0"
+                x2="64"
+                y2="64"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0%" stop-color="#fbd14b" />
+                <stop offset="100%" stop-color="#e89c1c" />
+              </linearGradient>
+              <linearGradient
+                id="lid"
+                x1="0"
+                y1="0"
+                x2="64"
+                y2="0"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0%" stop-color="#b1782c" />
+                <stop offset="100%" stop-color="#d89e39" />
+              </linearGradient>
+            </defs>
+
+            <!-- Pot shape -->
+            <path
+              d="M20 18 Q16 28 20 44 Q22 52 32 52 Q42 52 44 44 Q48 28 44 18 Z"
+              fill="url(#honey)"
+              stroke="#e89c1c"
+              stroke-width="2"
+            />
+
+            <!-- Lid -->
+            <ellipse cx="32" cy="16" rx="16" ry="4" fill="url(#lid)" />
+            <rect x="16" y="12" width="32" height="6" rx="3" fill="url(#lid)" />
+
+            <!-- Menu bars (miel à l'intérieur) -->
+            <rect x="22" y="28" width="20" height="3" rx="1.5" fill="#fff5cc" />
+            <rect x="22" y="34" width="20" height="3" rx="1.5" fill="#fff5cc" />
+            <rect x="22" y="40" width="20" height="3" rx="1.5" fill="#fff5cc" />
+          </svg>
+        </button>
+      </div>
+      <div class="logo--icon--container header--logo">
+        <img src="../Images/Shahda-LOGO.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="./Product.html">Nos Produits</a></li>
+          <li><a href="#"> Nous Contacter </a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="shehda__contact">
+      <div class="commande-container">
+        <h1>Comment commander chez Shahda ?</h1>
+        <div class="list-step-commande">
+          <div class="container-list">
+            <h2>1. Selectionnez votre produit</h2>
+            <p>
+              Parcourez notre catalogue et choisissez le miel, la propolis ou le
+              pollen qui vous convient.
+            </p>
+          </div>
+          <div class="container-list">
+            <h2>2. Envoyez votre commande via Instagram</h2>
+            <p>Envoyez-nous un message avec les informations suivantes :</p>
+            <ul>
+              <li>📍 Votre wilaya</li>
+              <li>👤 Nom et prénom</li>
+              <li>📦 Les produits souhaités (et quantités)</li>
+              <li>Votre N° de téléphone</li>
+            </ul>
+          </div>
+          <div class="container-list">
+            <h2>3. On vous contacte</h2>
+            <p>
+              Notre équipe vous appellera dans les plus brefs délais pour
+              confirmer la commande, la livraison et répondre à vos questions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

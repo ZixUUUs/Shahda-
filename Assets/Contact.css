@@ -1,0 +1,16 @@
+.shehda__contact {
+  display: flex;
+  padding: 20px 60px;
+}
+.commande-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+}
+.container-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
