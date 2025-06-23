@@ -328,35 +328,59 @@ ul li p {
   color: #3f0600;
 }
 
-/*---------------------------FORM----------------------------*/
-.shehda__formulaire h1 {
-  font-family: "Inter";
-  font-weight: 600;
-  font-size: 28px;
+/*---------------------------contact----------------------------*/
+.commande-container h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 48px;
   line-height: 50px;
   letter-spacing: 0%;
-  vertical-align: middle;
-  text-align: left;
   color: #3f0600;
 }
-.input-container label {
+.container-list h2 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0%;
+}
+.container-list p,
+ul li {
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0%;
+}
+.email-number h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0%;
   color: #3f0600;
 }
-.input-container input,
-select {
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
+.email-number ul li p,
+.insta-facebook ul li p {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
   letter-spacing: 0%;
-  color: #3b2926;
+  text-align: center;
+  color: #3f0600;
 }
-/*---------------------------FORM----------------------------*/
+.insta-facebook h3 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #3f0600;
+}
+/*---------------------------contact----------------------------*/
 
 /*-------------------------------responsive-------------------------------*/
 @media screen and (max-width: 1400px) {
@@ -389,6 +413,28 @@ select {
     line-height: 30px;
   }
   /*---------------------------Product-page----------------------------*/
+  .commande-container h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .insta-facebook h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .email-number h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .email-number h3 {
+    font-size: 36px;
+    line-height: 50px;
+    text-wrap: nowrap;
+  }
+  .email-number ul li p,
+  .insta-facebook ul li p {
+    font-size: 16px;
+    line-height: 35px;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -435,6 +481,13 @@ select {
   ul li p {
     font-size: 18px;
     line-height: 30px;
+    text-align: center;
+  }
+
+  /*------------------------------*/
+  .email-number h3 {
+    font-size: 36px;
+    line-height: 50px;
     text-align: center;
   }
 }
@@ -532,6 +585,36 @@ select {
     line-height: 30px;
   }
   /*---------------------------Product-page----------------------------*/
+  .commande-container h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .insta-facebook h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .email-number h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .email-number h3 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .email-number ul li p,
+  .insta-facebook ul li p {
+    font-size: 16px;
+    line-height: 35px;
+  }
+  .container-list h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .container-list p,
+  ul li {
+    font-size: 14px;
+    line-height: 30px;
+  }
 }
 @media screen and (max-width: 450px) {
   /*---------------------------Landing----------------------------*/
@@ -654,4 +737,34 @@ select {
     line-height: 26px;
   }
   /*---------------------------Product-page----------------------------*/
+  .commande-container h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .insta-facebook h3 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .email-number h3 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .email-number h3 {
+    font-size: 22px;
+    line-height: 50px;
+  }
+  .container-list p,
+  ul li {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .email-number ul li p,
+  .insta-facebook ul li p {
+    font-size: 14px;
+    line-height: 35px;
+  }
+  .container-list h2 {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
