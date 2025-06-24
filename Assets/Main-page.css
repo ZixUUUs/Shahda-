@@ -682,7 +682,7 @@ nav ul {
   .shahda__main-hero-background-image {
     position: relative;
     width: 100%;
-    min-height: 75vh;
+    min-height: 80dvh;
   }
   .shahda__main-hero-background-image img {
     object-position: 83% 50%;
@@ -720,7 +720,7 @@ nav ul {
   .honey-img-absolute {
     position: absolute;
     top: 0;
-    left: 75%;
+    left: 78%;
   }
   .grid-choose ul {
     padding-top: 30px;
