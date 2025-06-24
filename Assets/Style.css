@@ -59,7 +59,7 @@ a:active {
 nav ul li a {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
   text-wrap: nowrap;
@@ -451,7 +451,7 @@ footer h6 {
 @media screen and (max-width: 990px) {
   /*---------------------------Landing----------------------------*/
   nav ul li a {
-    font-size: 25px;
+    font-size: 16px;
   }
   .side-circle br {
     display: none;
