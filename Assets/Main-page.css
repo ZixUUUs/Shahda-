@@ -682,7 +682,7 @@ nav ul {
   .shahda__main-hero-background-image {
     position: relative;
     width: 100%;
-    min-height: 80dvh;
+    min-height: 90dvh;
   }
   .shahda__main-hero-background-image img {
     object-position: 83% 50%;
@@ -724,10 +724,10 @@ nav ul {
   }
   .grid-choose ul {
     padding-top: 30px;
-    gap: 10px;
+    gap: 15px;
   }
   .card-ticket {
-    height: 60px;
+    height: 70px;
   }
   .bule-sec-3 {
     position: absolute;

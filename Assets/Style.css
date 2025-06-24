@@ -160,6 +160,7 @@ nav ul li a {
   line-height: 30px;
   letter-spacing: 0%;
   text-align: center;
+  text-wrap: nowrap;
 }
 .grid-card-text p {
   font-family: "Inter";
@@ -665,11 +666,11 @@ ul li {
     line-height: 20px;
   }
   .grid-card-text p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
   }
   .grid-card-text p span {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
   }
   /*-------------------sec-4-------------------*/
