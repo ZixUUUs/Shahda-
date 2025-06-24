@@ -390,6 +390,14 @@ nav ul {
   height: 100%;
   object-fit: contain;
 }
+/*footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.5px solid #5b4b4b;
+  padding: 20px 10px;
+}
 /*-------------------------------responsive-------------------------------*/
 
 @media screen and (max-width: 1400px) {
@@ -590,6 +598,9 @@ nav ul {
   }
   .background-women {
     display: none;
+  }
+  footer {
+    padding: 10px;
   }
 }
 @media screen and (max-width: 780px) {

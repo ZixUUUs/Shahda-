@@ -137,7 +137,10 @@
 @media screen and (max-width: 450px) {
   .Product-image {
     margin: 0 10px;
+    max-width: 290px;
+    min-height: 200px;
   }
+
   .product-info ul {
     align-items: center;
     row-gap: 5px;

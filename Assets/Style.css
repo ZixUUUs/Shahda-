@@ -382,7 +382,16 @@ ul li {
   color: #3f0600;
 }
 /*---------------------------contact----------------------------*/
-
+/*footer*/
+footer h6 {
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
 /*-------------------------------responsive-------------------------------*/
 @media screen and (max-width: 1400px) {
   /*---------------------------Landing----------------------------*/
@@ -449,6 +458,11 @@ ul li {
   c {
     text-align: center;
   }
+  footer h6 {
+    font-size: 12px;
+    line-height: 30px;
+  }
+
   /*---------------------------Landing----------------------------*/
   /*---------------------------Product-page----------------------------*/
   .title-Product h1,
