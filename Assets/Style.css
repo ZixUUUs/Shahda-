@@ -265,7 +265,7 @@ h2 {
   color: #3f0600;
 }
 .price h3,
-span {
+.price span {
   font-family: "Inter";
   font-weight: 600;
   font-size: 36px;
@@ -408,7 +408,7 @@ footer h6 {
     line-height: 50px;
   }
   .price h3,
-  span {
+  .price span {
     font-size: 30px;
     line-height: 50px;
   }
@@ -475,7 +475,7 @@ footer h6 {
     text-align: center;
   }
   .price h3,
-  span {
+  .price span {
     font-size: 30px;
     line-height: 50px;
   }
@@ -579,7 +579,7 @@ footer h6 {
     text-align: center;
   }
   .price h3,
-  span {
+  .price span {
     font-size: 18px;
     line-height: 40px;
   }
@@ -733,7 +733,7 @@ footer h6 {
     line-height: 26px;
   }
   .price h3,
-  span {
+  .price span {
     font-size: 14px;
     line-height: 26px;
   }
