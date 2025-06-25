@@ -407,7 +407,8 @@ footer h6 {
     font-size: 40px;
     line-height: 50px;
   }
-  .price h3 {
+  .price h3,
+  span {
     font-size: 30px;
     line-height: 50px;
   }
@@ -473,7 +474,8 @@ footer h6 {
     line-height: 50px;
     text-align: center;
   }
-  .price h3 {
+  .price h3,
+  span {
     font-size: 30px;
     line-height: 50px;
   }
@@ -576,7 +578,8 @@ footer h6 {
     line-height: 50px;
     text-align: center;
   }
-  .price h3 {
+  .price h3,
+  span {
     font-size: 18px;
     line-height: 40px;
   }
@@ -729,7 +732,8 @@ footer h6 {
     font-size: 24px;
     line-height: 26px;
   }
-  .price h3 {
+  .price h3,
+  span {
     font-size: 14px;
     line-height: 26px;
   }

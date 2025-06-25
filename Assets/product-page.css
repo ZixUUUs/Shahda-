@@ -128,9 +128,13 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    min-height: 200px;
+    min-height: 400px;
   }
-
+  .metfield-buttons {
+    width: 100%;
+    align-self: center;
+    gap: 10px;
+  }
   .quick-description {
     display: none;
   }
