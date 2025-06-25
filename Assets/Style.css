@@ -264,7 +264,8 @@ h2 {
   letter-spacing: 0%;
   color: #3f0600;
 }
-.price h3 {
+.price h3,
+span {
   font-family: "Inter";
   font-weight: 600;
   font-size: 36px;
@@ -281,8 +282,8 @@ h2 {
   color: #3f0600;
   text-align: left;
 }
-.metafield-quantity button {
-  font-family: Inter;
+.metfield-buttons button {
+  font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -414,7 +415,7 @@ footer h6 {
     font-size: 18px;
     line-height: 30px;
   }
-  .metafield-quantity button {
+  .metfield-buttons button {
     font-size: 18px;
     line-height: 30px;
   }
@@ -477,7 +478,7 @@ footer h6 {
     line-height: 50px;
   }
 
-  .metafield-quantity button {
+  .metfield-buttons button {
     font-size: 18px;
     line-height: 30px;
   }
@@ -580,7 +581,7 @@ footer h6 {
     line-height: 40px;
   }
 
-  .metafield-quantity button,
+  .metfield-buttons button,
   .quantity input[value] {
     font-size: 16px;
     line-height: 30px;
@@ -733,7 +734,7 @@ footer h6 {
     line-height: 26px;
   }
 
-  .metafield-quantity button {
+  .metfield-buttons button {
     font-size: 14px;
     line-height: 26px;
   }
