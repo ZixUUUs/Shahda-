@@ -74,6 +74,20 @@
   width: 30px;
   height: 30px;
 }
+svg:hover {
+  animation: svg-rotate 0.8s ease-in-out;
+}
+@keyframes svg-rotate {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
 .insta-facebook {
   flex-grow: 3;
   display: flex;
