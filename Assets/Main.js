@@ -102,7 +102,7 @@ function switchSvg() {
     svgContainer.innerHTML = menuIcon;
   }
 }
-
+document.querySelector(".responsive-btn button").innerHTML = menuIcon;
 menuBtn.addEventListener("click", () => {
   switchSvg();
 });
