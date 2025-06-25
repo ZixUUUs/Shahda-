@@ -90,9 +90,17 @@ function switchSvg() {
 
   const isMenuIcon = currentSvg.id === "menu-icon";
 
-  headerList.classList.toggle("active", isMenuIcon);
-
-  svgContainer.innerHTML = isMenuIcon ? quitIcon : menuIcon;
+  if (isMenuIcon) {
+    headerList.classList.toggle("active", isMenuIcon);
+    svgContainer.innerHTML = quitIcon;
+  } else {
+    headerList.classList.remove("active");
+    headerList.classList.add("closing");
+    setTimeout(() => {
+      headerList.classList.remove("closing");
+    }, 300);
+    svgContainer.innerHTML = menuIcon;
+  }
 }
 
 menuBtn.addEventListener("click", () => {
