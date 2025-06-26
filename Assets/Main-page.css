@@ -7,7 +7,6 @@ header {
   padding: 10px 80px;
   gap: 40px;
   background-color: #ffffff4d;
-  border-bottom: 1px solid #000;
 }
 
 .responsive-btn {
@@ -404,9 +403,6 @@ footer {
 /*-------------------------------responsive-------------------------------*/
 
 @media screen and (max-width: 1400px) {
-  .shahda__main-hero-background-image {
-    top: -14px;
-  }
   .shehda__main-hero-text-wrapper {
     top: 0;
   }
